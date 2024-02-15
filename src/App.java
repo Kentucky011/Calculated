@@ -14,7 +14,7 @@ public class App {
             System.out.println("Введите первое число");
             System.out.println("Для выхода введите \"Выход\"");
             if (scanner.hasNext("Выход")) {
-                break;
+                return;
             } else if (scanner.hasNextInt()) {
                 a = scanner.nextInt();
             } else {
