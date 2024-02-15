@@ -12,7 +12,10 @@ public class App {
 
         while (true) {
             System.out.println("Введите первое число");
-            if (scanner.hasNextInt()) {
+            System.out.println("Для выхода введите \"Выход\"");
+            if (scanner.hasNext("Выход")) {
+                break;
+            } else if (scanner.hasNextInt()) {
                 a = scanner.nextInt();
             } else {
                 throw new NumberFormatException("Введите целочисленное значение.");
