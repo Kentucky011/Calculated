@@ -8,6 +8,8 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         int a = 0;
         int b = 0;
+
+
         while (true) {
             System.out.println("Введите первое число");
             if (scanner.hasNextInt()) {
@@ -15,12 +17,16 @@ public class App {
             } else {
                 throw new NumberFormatException("Введите целочисленное значение.");
             }
+
+
             System.out.println("Введите второе число");
             if (scanner.hasNextInt()) {
                 b = scanner.nextInt();
             } else {
                 System.out.println("Введите целочисленное значение.");
             }
+
+
             if (b == 0) {
                 throw new DivideByZero("На ноль делить НЕЛЬЗЯ!!!");
             } else {
