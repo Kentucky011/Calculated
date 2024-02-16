@@ -9,3 +9,38 @@
 обработать ошибку формат DivideByZero
 Выводи в лог ошибку с предупреждением завершать работу с ошибкой
 Вывод в стек трейс
+
+public static void main(String[] args) throws DivideByZero, NumberFormatException {
+        /*Scanner scanner = new Scanner(System.in);
+        int a = 0;
+        int b = 0;
+
+
+        while (true) {
+            System.out.println("Введите первое число");
+            System.out.println("Для выхода введите \"Выход\"");
+            if (scanner.hasNext("Выход")) {
+                return;
+            } else if (scanner.hasNextInt()) {
+                a = scanner.nextInt();
+            } else {
+                throw new NumberFormatException("Введите целочисленное значение.");
+            }
+
+
+            System.out.println("Введите второе число");
+            if (scanner.hasNextInt()) {
+                b = scanner.nextInt();
+            } else {
+                System.out.println("Введите целочисленное значение.");
+            }
+
+
+            if (b == 0) {
+                throw new DivideByZero("На ноль делить НЕЛЬЗЯ!!!");
+            } else {
+                int result = a / b;
+                System.out.println("Результат: " + result);
+            }
+        }*/
+    }
